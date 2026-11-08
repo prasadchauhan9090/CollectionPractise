@@ -15,6 +15,9 @@ public class Demo1 {
         ls.add(8);
         ls.add(10);
 
+
+
+
         int sum=0;
         int avrg=0;
         int count=0;
