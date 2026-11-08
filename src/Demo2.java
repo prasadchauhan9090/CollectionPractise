@@ -7,25 +7,28 @@ public class Demo2 {
     {
 
 
-        List<Integer> list =  new ArrayList<>();
+        List<Integer> ls =  new ArrayList<>();
 
         int sum=0;
 
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
-        list.add(6);
-        list.add(7);
-        list.add(8);
+        ls.add(4);
+        ls.add(5);
+        ls.add(0);
+        ls.add(9);
+        ls.add(8);
+        ls.add(10);
 
 
-        for(int i=0;i<list.size();i++)
+
+        for(int i=0;i<ls.size();i++)
         {
-           sum= list.get(i);
-            System.out.print(sum+" ");
+           if(ls.get(i)%2==0)
+           {
+               sum=sum+ls.get(i);
+           }
         }
+
+        System.out.println(sum);
 
 
 
